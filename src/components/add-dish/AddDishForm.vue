@@ -229,7 +229,7 @@ export default {
         return;
       }
       //edit
-      if (this.form != 0) {
+      if (this.form.id != 0) {
         console.log("edit");
         this.editDish(this.form);
 
